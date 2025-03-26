@@ -18,6 +18,8 @@ WORKDIR /var/www
 
 COPY . .
 
+COPY .env .env
+
 # Instala las dependencias de Composer
 RUN composer install --optimize-autoloader --no-dev
 
