@@ -25,4 +25,7 @@ Route::post('/citas', [CitaController::class, 'store']);
 
 Route::get('/citas/listado', [CitaController::class, 'listado'])->name('citas.listado');
 
+Route::get('/test', function () {
+    return 'Hello from /test route';
+});
 
