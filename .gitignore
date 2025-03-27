@@ -31,3 +31,6 @@ Thumbs.db
 !/storage/app
 !/storage/framework
 !/storage/logs
+
+# Ignore environment file
+.env
